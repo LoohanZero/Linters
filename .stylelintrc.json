@@ -1,0 +1,12 @@
+{
+    "extends": "stylelint-config-sass-guidelines",
+    "plugins": [
+        "stylelint-scss" ], 
+    "rules": {
+        "indentation": "tab",
+        "scss/at-extend-no-missing-placeholder": true, 
+        "declaration-property-value-disallowed-list": {
+            "/^border/": []
+        }
+    }
+  }
